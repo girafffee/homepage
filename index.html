@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <title>Résumé</title>
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://kit.fontawesome.com/eb982ef246.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <main>
+  
+    <main class="main-dark">
+      <a href="javascript:void(0)" id="change-theme-btn" class="button"><i class="fas fa-sun"></i></a>
       <article>
-        <div class="page" style="border-color: midnightblue;">
+        <div class="page page-dark" style="border-color: whitesmoke;">
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
                 <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/images/avatar.png" role="img" aria-label="My profile picture"></object>
+                  <object class="avatar transition-fast" data="./assets/images/avatar.jpg" role="img" aria-label="My profile picture"></object>
                 </div>
               </div>
               <div class="thirteen wide column">
@@ -102,11 +106,12 @@
                   </li>
                   <li>
                     <p><em>November 2018</em></p>
-                    <p>While we were learning assembler, I enrolled in a computer academy Step on course Backend.</p>
+                    <p>While we were learning assembler, I enrolled in a  <a href="https://nikolaev.itstep.org/" target="_blank" rel="external">Computer Academy Step</a> on course Backend.</p>
                   </li>
                   <li>
                     <p><em>September 2018</em></p>
-                    <p>Entered the Nikolaev National University named after <b>V. A. Sukhomlinsky</b> with a degree in Computer Engineering.</p>
+                    <p>Entered the <a href="http://mdu.edu.ua/" target="_blank" rel="external">Nikolaev National University named after V. A. Sukhomlinsky</a> with a degree in Computer Engineering. <br>
+                    <small>Yes, this is really the <a href="http://math.mdu.edu.ua/" target="_blank" rel="external">official page</a> of my faculty. You can still check <a href="http://mdu.edu.ua/?page_id=248" target="_blank" rel="external">here</a>.</small></p>
                   </li>
                 </ul>
               </div>
@@ -150,5 +155,11 @@
         </div>
       </article>
     </main>
+
+    <footer>
+      <em>It didn’t work like in <a href="https://www.starwars.com/" target="_blank" rel="external">Star Wars</a> :(</em>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
