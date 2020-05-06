@@ -1,0 +1,114 @@
+body::-webkit-scrollbar {
+    width: 0;   
+}
+
+/* STAR WARS */
+article {
+    perspective: 1500px;
+    
+}
+div.page {
+    transform: rotateX(30deg); 
+}
+
+.main-dark {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+.page-dark {
+    background: -webkit-linear-gradient(to top, #818181, #2e2727);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #818181, #2e2727); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    color: #999999;
+}
+
+.avatar {
+    max-width: 12rem;
+}
+.tags {
+    text-transform: uppercase;
+}
+.transition-fast {
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out .1s;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+}
+
+object.avatar:hover{
+    border-radius: 70%;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+::moz-selection {
+    background-color: black;
+    color: white;
+}
+
+
+ul.timeline > li {
+    position: relative;
+}
+li p {
+    padding-left: 1rem;
+}
+li p:first-child{
+    writing-mode: vertical-rl;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    -webkit-transition: all .5s ease-out .1s;
+    -moz-transition: all .5s ease-out .1s;
+    -o-transition: all .5s ease-out .1s;
+    transition: all .5s ease-out .1s;
+}
+
+li p:first-child:hover {
+    transform: rotateZ(-90deg);
+}
+
+
+li p:nth-child(2), li ul {
+    padding-left: 6rem;
+    margin-bottom: 3rem;
+}
+main {
+    margin-bottom: 50vh;
+    overflow: hidden;
+}
+
+footer {
+    height: 50vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+}
+
+a.button {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+    z-index: 3;
+    color: grey;
+    outline: none;
+    position: fixed;
+}
+
+
+
+
+  
